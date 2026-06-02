@@ -1,0 +1,15 @@
+INSTALLATION et CONFIGURATION
+
+Conseil de mentor : Je préfère être transparent dès le début. Apple verrouille son écosystème. 
+Pour compiler et publier ton application finale sur l'App Store (iOS), tu auras obligatoirement besoin d'un Mac 
+(ou d'un service cloud macOS) plus tard. Cependant, pour tout notre parcours d'apprentissage et le développement de tes applications, ton PC Linux est parfait.
+
+🛠️ Étape 1 : Installer le SDK Flutter
+
+sudo snap install flutter --classic
+
+🩺 Étape 2 : Le premier diagnostic
+Une fois l'installation de Snap terminée, initialise le système en lançant l'outil de diagnostic officiel de Flutter.
+
+flutter doctor
+Cet outil analyse ton système, télécharge les composants de base manquants et liste ce qui est prêt ou nécessite ton attention.
