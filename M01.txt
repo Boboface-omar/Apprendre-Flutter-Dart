@@ -5,11 +5,26 @@ Pour compiler et publier ton application finale sur l'App Store (iOS), tu auras 
 (ou d'un service cloud macOS) plus tard. Cependant, pour tout notre parcours d'apprentissage et le développement de tes applications, ton PC Linux est parfait.
 
 🛠️ Étape 1 : Installer le SDK Flutter
-
 sudo snap install flutter --classic
 
 🩺 Étape 2 : Le premier diagnostic
 Une fois l'installation de Snap terminée, initialise le système en lançant l'outil de diagnostic officiel de Flutter.
-
 flutter doctor
 Cet outil analyse ton système, télécharge les composants de base manquants et liste ce qui est prêt ou nécessite ton attention.
+
+🛠️ Étape 3 : Installer les outils de ligne de commande Android 
+Cherche la ligne nommée Android SDK Command-line Tools (latest) et coche la case à gauche de celle-ci.
+Clique sur le bouton Apply en bas à droite, puis confirme pour lancer le téléchargement.
+
+🛠️ Étape 4 : Accepter les licences Android
+flutter doctor --android-licenses
+
+🩺 Étape 5 : Vérifier l'installation
+flutter doctor
+
+Etape 6 : Installer un éditeur de code
+Je recommande Visual Studio Code (VS Code) pour sa légèreté et son excellente intégration avec Flutter.
+Télécharge et installe VS Code depuis le site officiel : https://code.visualstudio.com/
+Ensuite, lance VS Code et installe l'extension Flutter (qui inclut Dart) :
+- Ouvre le panneau des extensions (icône de carré avec quatre carrés à l'intérieur).
+- Recherche "Flutter" et installe l'extension officielle de Dart Code.
