@@ -12,4 +12,4 @@ void main() {
 
 // ; : Le point-virgule marque la fin d'une instruction. En Dart, il est obligatoire après chaque action.
 
-// Tape la commande suivante pour exécuter ton script : dart main.dart
+// Tape la commande suivante pour exécuter ton script : dart nomDuFichier.dart

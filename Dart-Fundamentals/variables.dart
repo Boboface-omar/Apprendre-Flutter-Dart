@@ -12,14 +12,14 @@
 
 // Voici les 4 types de boîtes de base les plus utilisés en développement mobile :
 // Type       | Ce qu'il contient                | Exemple en code
-// String     | Du texte (entre guillemets)     | 'Bobaface'
+// String     | Du texte (entre guillemets)     | 'Boboface'
 // int        | Des nombres entiers (sans virgule) | 26
 // double     | Des nombres à virgule           | 4.5
 // bool       | Un choix logique (vrai ou faux) | true ou false
 
 void main() {
   // 1. Déclaration avec inférence (Dart devine le type)
-  var nomUtilisateur = 'Omar'; 
+  var nomUtilisateur = 'Boboface'; 
   
   // 2. Déclaration explicite (Le type est clairement écrit)
   int age = 24;

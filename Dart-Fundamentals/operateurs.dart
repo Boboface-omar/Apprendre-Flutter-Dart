@@ -30,3 +30,11 @@ bool estPopulaire = totalVues > 200; // true
 
 // ! (NON) : Inverse le résultat (le vrai devient faux, et inversement).
 bool aAccesAuContenu = estConnecte && estAbonne;
+
+// Si vous voulez bloquer une variable pour qu'elle ne soit jamais réassignée après sa création, vous utilisez final.
+
+// En résumé pour vos futurs codes :
+
+// Utilisez final (ou const) par défaut pour toutes vos variables. C'est la meilleure pratique.
+
+// Utilisez var (ou juste le type, comme int ou String) uniquement si vous savez que vous allez devoir modifier cette valeur plus tard (par exemple, un score qui augmente ou un compteur dans une boucle).
