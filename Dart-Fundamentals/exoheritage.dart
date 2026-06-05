@@ -26,7 +26,7 @@ class Vehicule {
 
 // La classe enfant (Sous-classe) qui hérite de Vehicule
 class Voiture extends Vehicule {
-  int nombreDePortes;
+  int nombreDePortes; 
 
   // Le constructeur transmet la marque au parent via le mot-clé 'super'
   Voiture(String marque, this.nombreDePortes) : super(marque);

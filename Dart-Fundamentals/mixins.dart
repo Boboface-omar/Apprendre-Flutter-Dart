@@ -8,7 +8,7 @@
 mixin Volant {
   void voler() {
     print('Je déploie mes ailes et je vole ! 🦅');
-  }
+  } 
 }
 
 class Animal {}

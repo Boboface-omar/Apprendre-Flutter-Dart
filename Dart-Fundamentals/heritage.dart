@@ -17,7 +17,7 @@ class Appareil {
 
   void allumer() {
     print('L\'appareil de marque $marque s\'allume.');
-  }
+  } 
 }
 
 // La classe enfant (Sous-classe) qui hérite de Appareil

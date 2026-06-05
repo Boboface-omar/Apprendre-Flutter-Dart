@@ -11,7 +11,7 @@
 
 // Une fois fait, une question de réflexion : d'après toi, si on crée un autre enfant de Vehicule appelé Velo sans redéfinir klaxonner(), que va-t-il afficher si on appelle cette méthode ?
 
-class Vehicule {
+class Vehicule { 
   void klaxonner() {
     print('Pouet !');
   }

@@ -12,7 +12,7 @@
 // Le plan d'usine (La Classe)
 class Voiture {
   // Attributs
-  String marque;
+  String marque;  
   String couleur;
 
   // Le Constructeur : la fonction qui sert à fabriquer l'objet
@@ -30,5 +30,6 @@ void main() {
   Voiture laVoitureDeMonAmi = Voiture('Tesla', 'Blanche');
 
   // Utilisation des objets
-  maVoiture.demarrer(); // Affiche : La Peugeot de couleur Noire fait : Vroum !
+  maVoiture.demarrer(); // Affiche : La Peugeot de couleur Noire fait : Vroum ! 
+  laVoitureDeMonAmi.demarrer(); // Affiche : La Tesla de couleur Blanche fait : Vroum ! 
 }

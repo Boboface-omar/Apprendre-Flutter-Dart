@@ -10,7 +10,7 @@
 // Le contrat (L'interface)
 abstract class Connectable {
   void connecter(); // Pas de code ici, juste la signature de l'action
-}
+} 
 
 // Une classe qui signe et respecte le contrat
 class Telephone implements Connectable {
