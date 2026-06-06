@@ -1,12 +1,12 @@
 // Enumération pour représenter le genre d'un utilisateur.
-enum Genre { homme, femme, autre }
+enum Genre { homme, femme }
 
 // Classe de base représentant un utilisateur simple.
 class User {
   // Nom de l'utilisateur.
   final String name;
 
-  // Genre de l'utilisateur (homme/femme/autre).
+  // Genre de l'utilisateur (homme/femme).
   final Genre genre;
 
   // Age de l'utilisateur.

@@ -16,6 +16,7 @@
 // int        | Des nombres entiers (sans virgule) | 26
 // double     | Des nombres à virgule           | 4.5
 // bool       | Un choix logique (vrai ou faux) | true ou false
+// Dynamic     | N'importe quel type (pas recommandé) | Peut contenir n'importe quoi, mais c'est risqué !
 
 void main() {
   // 1. Déclaration avec inférence (Dart devine le type)
@@ -25,7 +26,7 @@ void main() {
   int age = 24;
   double note = 18.5;
   bool estConnecte = true;
-
+  dynamic donnees = 'Ceci est une chaîne de caractères'; // Peut être changé plus tard, mais attention aux erreurs !
   // Affichage combiné (Interpolation de chaîne)
   print('L\'utilisateur $nomUtilisateur a $age ans.');
 }
