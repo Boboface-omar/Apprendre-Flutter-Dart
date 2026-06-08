@@ -1,0 +1,37 @@
+Voici les étapes pour générer l'application modèle de Flutter :
+
+Ouvre ton terminal dans le dossier où tu souhaites stocker tes projets 📁.
+
+Exécute la commande suivante pour créer l'application :
+
+flutter create mon_app
+
+Dans la barre latérale de VS Code, tu vas voir apparaître toute une structure de dossiers (comme android, web, lib...). Le dossier qui nous intéresse pour coder est le dossier lib.
+Dans le dossier lib, tu trouveras un fichier main.dart. C'est dans ce fichier que nous allons écrire notre code pour créer l'application Flutter.
+
+C'est exactement ce qui compose un fichier Flutter de démarrage. Décortiquons ces éléments clés que tu as repérés :
+📦 L'import (import '...';) : Cette ligne permet de charger la bibliothèque Material Design de Flutter. C'est elle qui contient tous les composants graphiques de base (les boutons, les textes, les barres de navigation). Sans cet import, Dart ne comprendrait pas les commandes Flutter.
+
+🏗️ La classe (class MyApp ...) : Comme nous l'avons vu avec le prototype du smartphone ou de la voiture, chaque écran ou composant de ton application est défini par une classe.
+
+🧬 L'héritage (extends StatelessWidget) : C'est l'application directe de ce que tu viens de pratiquer. StatelessWidget est une super-classe fournie par Flutter. En utilisant extends, ta classe MyApp devient officiellement un composant graphique capable de s'afficher sur un écran.
+
+📦 Widget est le type de retour. Cela indique que cette fonction a pour mission de fabriquer et de renvoyer un composant graphique.
+
+🛠️ build est le véritable nom de la méthode.
+
+La méthode build est le cœur de chaque composant Flutter. C'est elle qui contient toutes les instructions pour dessiner l'interface sur l'écran de l'utilisateur 📱.
+
+🏛️ MaterialApp est le widget racine de l'application. Son rôle est de configurer les bases indispensables pour toute l'application : le thème visuel 🎨, la langue par défaut, et la gestion de la navigation entre les pages. C'est l'enveloppe globale.
+
+Ce paramètre home (qui signifie "maison" ou "accueil") dit à Flutter : « Dès que l'application est prête, affiche ce composant au centre de l'écran ».
+
+StatelessWidget ⚪ : C'est un widget "sans état". Une fois qu'il est dessiné à l'écran, il ne change plus. On l'utilise pour des éléments statiques, comme un texte fixe, un logo ou une icône de décoration.
+
+StatefulWidget 🔄 : C'est un widget "avec état". Il est capable de mémoriser des données qui évoluent dans le temps (comme un compteur, le contenu d'un formulaire ou le score d'un jeu) et de se redessiner automatiquement dès que ces données changent.
+
+Comment lancer l'application sur un appareil ou un émulateur ?
+Pour voir les appareils connectés : flutter devices
+Pour lancer l'application sur un appareil spécifique : flutter run -d nom_de_l_appareil
+Pour voir les émulateurs disponibles : flutter emulators
+Pour lancer un émulateur : flutter emulators --launch nom_de_l_emulateur
