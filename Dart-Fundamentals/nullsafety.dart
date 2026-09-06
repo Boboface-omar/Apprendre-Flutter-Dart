@@ -15,3 +15,10 @@ String? adresseOptionnelle = null; // ✅ Autorisé grâce au '?'
 // Si tu as une variable qui peut être nulle (String?), mais que tu es absolument certain à 100% qu'à ce moment précis du code elle contient une valeur, tu ajoutes un ! pour dire à Dart : "Fais-moi confiance, je sais qu'elle n'est pas vide".
 
 // ⚠️ Attention : Si la variable est finalement vide au moment du !, l'application plante immédiatement. C'est une bonne pratique de l'éviter au maximum.
+
+String? nom = null;
+
+print(nom ?? 'Nom inconnu');
+// ?? signifie essentiellement :
+
+// Si la valeur est null, utilise cette autre valeur.
