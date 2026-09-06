@@ -23,6 +23,7 @@ void main() {
   var nomUtilisateur = 'Boboface'; 
   
   // 2. Déclaration explicite (Le type est clairement écrit)
+  String nom = 'Diallo';
   int age = 24;
   double note = 18.5;
   bool estConnecte = true;

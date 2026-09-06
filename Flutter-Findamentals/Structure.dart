@@ -30,3 +30,24 @@
 // MyApp() est généralement le widget racine (root widget).
 
 // Toute l'application sera construite à partir de lui.
+
+// Mais un projet professionnel ressemble davantage à :
+// lib/
+// ├── core/
+// ├── features/
+// │   ├── auth/
+// │   ├── home/
+// │   └── profile/
+// ├── shared/
+// └── main.dart
+
+// Widget build(BuildContext context) {
+//   return MaterialApp(
+//     home: HomePage(),
+//   );
+// }
+// La méthode build() sert à :
+
+// construire et retourner les widgets qui doivent être affichés à l'écran.
+// build() → construit l'interface ✅
+// context → donne des informations sur l'endroit où le widget se trouve dans l'arbre de widgets ✅
