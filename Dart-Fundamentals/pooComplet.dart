@@ -12,12 +12,14 @@ class User {
   // Age de l'utilisateur.
   final int age;
 
-  // Constructeur avec paramètres requis.
+  // Constructeur avec paramètres requis. (Constructeur nommé)
   User({
     required this.name,
     required this.genre,
     required this.age,
   });
+  //Constructeur positionnel
+  // User(this.name, this.genre, this.age);
 
   // Getter calculé indiquant si l'utilisateur est majeur.
   // Il ne stocke pas de valeur, il calcule le résultat à la demande.
