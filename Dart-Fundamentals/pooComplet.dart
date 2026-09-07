@@ -3,6 +3,9 @@ enum Genre { homme, femme }
 
 // Classe de base représentant un utilisateur simple.
 class User {
+  // Pour permettre des modifications, les champs ne doivent pas être 'final'.
+  // On les rend privés (avec un underscore) pour contrôler l'accès via getters/setters : String _name;
+
   // Nom de l'utilisateur.
   final String name;
 
